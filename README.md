@@ -9,6 +9,11 @@ M is the number of subspace basis used.
 
 Exact result E_exact is given by exact diagonalization of the Hamiltonian (full configuration method).
 
-Subspace result it given by solving the generalized eigenvalue problem $Fc = ESc$.
-Here the matrix elements of F and S are given by quantum computers (simulators).
+Subspace result it given by solving the generalized eigenvalue problem
+```math
+Fc = ESc
+```
+
+
+Here the matrix elements of $F$ and $S$ are given by quantum computers (simulators).
 
