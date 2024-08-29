@@ -17,3 +17,20 @@ Fc = ESc
 
 Here the matrix elements of $F$ and $S$ are given by quantum computers (simulators).
 
+Chemical accuracy of 0.001 Hartree is expected to be reached using $$M \sim 10$$
+
+## Input parameters
+* ```distance```: bond length of hydrogen chain
+* ```orb_number```: number of orbitals. It equals to the number of hydrogen atoms in this case
+* ```basis```: basis set, which is set to be "sto-3g" by default
+* ```n_qubits```: number of qubits. In the case of ```basis = "sto-3g"```, ```n_qubits``` should be twice of ```orb_number```
+* ```trotter_step```: number of Trotter steps when Trotterzation approximation is used
+* ```max_iter```: maximum size of Krylov subspace $$M$$
+* ```time_step```: time step $$t$$ for time evolution operator $$\exp(-iHt)$$
+* ```shots_number```: number of shots used when performing shot simulations
+
+When simulation is using ```calculation.matrix_elements_noshots(max_iter)```, calculation of ```orb_number > 4``` and ```n_qubits > 8``` might be time-consuming.
+
+When simulation is using ```calculation.matrix_elements_shots(max_iter)```, ```orb_number = 2``` and ```n_qubits = 4``` should be used, otherwise larger qubit numbers will require long running time.
+
+
