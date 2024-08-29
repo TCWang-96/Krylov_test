@@ -19,6 +19,8 @@ Here the matrix elements of $F$ and $S$ are given by quantum computers (simulato
 
 Chemical accuracy of 0.001 Hartree is expected to be reached using $$M \sim 10$$
 
+To successfully run this demo I used Python version ```3.10.9```.
+
 ## Input parameters
 * ```distance```: bond length of hydrogen chain
 * ```orb_number```: number of orbitals. It equals to the number of hydrogen atoms in this case
