@@ -17,7 +17,7 @@ Fc = ESc
 
 Here the matrix elements of $F$ and $S$ are given by quantum computers (simulators).
 
-Chemical accuracy of 0.001 Hartree is expected to be reached using $$M \sim 10$$
+Chemical accuracy of 0.001 Hartree is expected to be reached using $$M \sim 10$$ in the case of $${\rm H}_4$$
 
 To successfully run this demo I used Python version ```3.10.9```.
 
