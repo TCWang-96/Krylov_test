@@ -2,7 +2,7 @@
 
 This is a demo to perform benchmark calculation to solve ground state energy of H-chain using Quantum Krylov subspace method.
 
-Running this file will give output of array ($M$, $$|E_{sub} - E_{exact}|$$).
+Running ```test_Krylov.py``` will give output of array ($M$, $$|E_{sub} - E_{exact}|$$).
 
 $M$ is the number of subspace basis used.
 
